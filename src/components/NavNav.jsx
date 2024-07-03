@@ -14,6 +14,12 @@ const NavNav = () => {
       <NavLink>
         <Button variant="filled" color="blue">Home</Button>
       </NavLink>
+      <NavLink>
+        <Button variant="filled" color="blue">Home</Button>
+      </NavLink>
+      <NavLink>
+        <Button variant="filled" color="blue">Home</Button>
+      </NavLink>
     </>
   );
   return (
