@@ -6,19 +6,24 @@ const NavNav = () => {
   const navitems = (
     <>
       <NavLink className="mr-4">
-        <Button variant="filled" color="blue">Home</Button>
+        <Button variant="filled" color="blue">
+          Home
+        </Button>
+      </NavLink>
+      <NavLink className="mr-4">
+        <Button variant="filled" color="blue">
+          Blog
+        </Button>
+      </NavLink>
+      <NavLink className="mr-4">
+        <Button variant="filled" color="blue">
+          Service
+        </Button>
       </NavLink>
       <NavLink>
-        <Button variant="filled" color="blue">Home</Button>
-      </NavLink>
-      <NavLink>
-        <Button variant="filled" color="blue">Home</Button>
-      </NavLink>
-      <NavLink>
-        <Button variant="filled" color="blue">Home</Button>
-      </NavLink>
-      <NavLink>
-        <Button variant="filled" color="blue">Home</Button>
+        <Button variant="filled" color="blue">
+          Contact
+        </Button>
       </NavLink>
     </>
   );
@@ -50,7 +55,7 @@ const NavNav = () => {
               {navitems}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <a className="btn btn-ghost text-xl">WEB.Io</a>
         </div>
         <div className="navbar-center hidden lg:flex gap-4">
           <ul className="menu menu-horizontal px-1 mr-4">{navitems}</ul>

@@ -7,7 +7,7 @@ const HeroSection = () => {
 
   return (
     <div>
-      <div className="hero bg-teal-400 min-h-screen">
+      <div className="hero pt-10 min-h-screen">
         <div className="hero-content text-center">
           <div className="max-w-md">
             <h1 className="text-5xl font-bold">
